@@ -1,7 +1,9 @@
+import Profile from './Profile';
+
 function SideBar() {
   return (
     <aside>
-      <h1>Sidebar</h1>
+      <Profile />
     </aside>
   );
 }
